@@ -13,9 +13,14 @@ flowchart LR
 ```
 
 ## Live Interactive Dashboard
+<<<<<<< HEAD
 * **Tableau Public:** [View Live Dashboard](https://tableau.com)
 
 https://github.com
+=======
+## Dashboard Demo
+* **Video Walkthrough:** [Watch Tableau Dashboard Demo](screenshots/Tableau.mp4)
+>>>>>>> 0c99ab5 (Replace live Tableau link with demo video link)
 
 
 ## Key Highlights
@@ -25,7 +30,7 @@ https://github.com
 * **Tracked Metrics:** Average Handle Time (AHT), Queue Wait Duration, After-Contact Work (ACW) Time, Disconnect Reasons, and Hourly Contact Volume.
 
 ## Repository Structure
-* `sql/01_create_ctr_table.sql` – Athena external table DDL with Partition Projection.
-* `sql/02_create_flattened_view.sql` – SQL view flattening nested CTR structs and ISO-8601 timestamps.
-* `data/sample_ctr_flattened.csv` – Anonymized sample output from Athena.
-* `screenshots/` – Visuals of the Athena query output and Tableau dashboard.
+* `sql/01_create_ctr_table.sql` � Athena external table DDL with Partition Projection.
+* `sql/02_create_flattened_view.sql` � SQL view flattening nested CTR structs and ISO-8601 timestamps.
+* `data/sample_ctr_flattened.csv` � Anonymized sample output from Athena.
+* `screenshots/` � Visuals of the Athena query output and Tableau dashboard.
