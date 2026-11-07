@@ -1,0 +1,4 @@
+contact_id	initial_contact_id	channel	initiation_method	disconnect_reason	initiation_time_utc	connected_system_time_utc	disconnect_time_utc	queue_name	queue_duration_sec	agent_username	routing_profile	handle_time_sec	acw_time_sec	hold_time_sec	number_of_holds	customer_address	system_address	year	month	day
+812cb402-5a2a-4cd4-939d-c58a04b995a6		CHAT	API	CUSTOMER_DISCONNECT	02:12.0	02:15.0	42:45.0	BasicQueue	2379	Agent1	Basic Routing Profile	45	4191	0	0			2026	11	07
+90902e2c-99f1-43bf-a64e-d5e67f4e7f09	401d2be6-6e8d-4b4a-8223-4316d925bdbe	CHAT	DISCONNECT	CUSTOMER_DISCONNECT	34:08.0	34:08.0	34:11.0											2026	11	07
+401d2be6-6e8d-4b4a-8223-4316d925bdbe		CHAT	API	AGENT_DISCONNECT	33:43.0	33:45.0	34:07.0	BasicQueue	3	Agent1	Basic Routing Profile	12	6	0	0			2026	11	07
