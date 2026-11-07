@@ -13,7 +13,10 @@ flowchart LR
 ```
 
 ## Live Interactive Dashboard
-* **Tableau Public:** [View Live Dashboard](<PASTE-YOUR-TABLEAU-PUBLIC-LINK-HERE>)
+* **Tableau Public:** [View Live Dashboard](https://tableau.com)
+
+https://github.com
+
 
 ## Key Highlights
 * **Zero-Maintenance Partitioning:** Configured Athena Partition Projection (`year/month/day`) to eliminate manual `MSCK REPAIR TABLE` jobs or Glue Crawlers.
@@ -22,7 +25,7 @@ flowchart LR
 * **Tracked Metrics:** Average Handle Time (AHT), Queue Wait Duration, After-Contact Work (ACW) Time, Disconnect Reasons, and Hourly Contact Volume.
 
 ## Repository Structure
-* `sql/01_create_ctr_table.sql` – Athena external table DDL with Partition Projection.
-* `sql/02_create_flattened_view.sql` – SQL view flattening nested CTR structs and ISO-8601 timestamps.
-* `data/sample_ctr_flattened.csv` – Anonymized sample output from Athena.
-* `screenshots/` – Visuals of the Athena query output and Tableau dashboard.
+* `sql/01_create_ctr_table.sql` â€“ Athena external table DDL with Partition Projection.
+* `sql/02_create_flattened_view.sql` â€“ SQL view flattening nested CTR structs and ISO-8601 timestamps.
+* `data/sample_ctr_flattened.csv` â€“ Anonymized sample output from Athena.
+* `screenshots/` â€“ Visuals of the Athena query output and Tableau dashboard.
